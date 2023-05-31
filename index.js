@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const dotenv = require('dotenv');
+dotenv.config();
 
 const dbRoute = require('./routes/dbroute');
 const homeRoute = require('./routes/homeroute');
@@ -11,7 +12,6 @@ const host = process.env.HOST;
 
 const app = express();
 
-dotenv.config();
 
 app.use(cors());
 app.use(express.json());
