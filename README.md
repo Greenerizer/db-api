@@ -45,7 +45,7 @@ Run this on your terminal.
   
   ```
   
-##OR
+## OR
 * Using docker
   ```sh
   docker build
@@ -56,20 +56,20 @@ Run this on your terminal.
 ------------
 
 
-##Routes
+## Routes
 
-###Accessing database
+### Accessing database
 ### Trash
 - URL
 	- api/db/sampah
 - Method
 	- GET
 - Response
-	-     {
+	-	{
     	"idsampah": 1,
     	"jenis_sampah":"cardboard",
     	"deskripsi_sampah":" Karton adalah ..."
-    }
+    	}
 <br>
 
 ### Rewards
