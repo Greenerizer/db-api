@@ -42,4 +42,45 @@ Run this on your terminal.
 * mysql
   ```sh
   npm install mysql
+  
   ```
+  
+##OR
+* Using docker
+  ```sh
+  docker build
+  ```
+  
+<br>
+
+------------
+
+
+##Routes
+
+###Accessing database
+### Trash
+- URL
+	- api/db/sampah
+- Method
+	- GET
+- Response
+	-     {
+    	"idsampah": 1,
+    	"jenis_sampah":"cardboard",
+    	"deskripsi_sampah":" Karton adalah ..."
+    }
+<br>
+
+### Rewards
+- URL
+	- api/db/rewards
+- Method
+	- GET
+- Response
+	-    {
+    "idreward": 1,
+    "namareward":"pulsa",
+    "deskripsi":"pulsa adalah ...",
+    "urlgambar":"https://www.youngontop.com/wp-content/uploads/2019/03/spongebob.jpg"
+    }
