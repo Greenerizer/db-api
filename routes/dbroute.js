@@ -25,5 +25,16 @@ router.get('/rewards', (req, res) => {
     });
 });
 
+router.get('/lokasi', (req, res) => {
+    const sqlQuery = "SELECT * FROM lokasi";
+
+    db.query(sqlQuery, (err, result) => {
+        if(err){
+            res.send(err).status(400);
+        }else{
+            res.send(result).status(200);
+        }
+    });
+});
 
 module.exports = router;
