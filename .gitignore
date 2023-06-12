@@ -1,3 +1,5 @@
 node_modules
 notes.txt
 .gitignore
+index.html
+handlers
