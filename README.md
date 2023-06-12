@@ -70,7 +70,6 @@ Run this on your terminal.
     	"jenis_sampah":"cardboard",
     	"deskripsi_sampah":" Karton adalah ..."
     	}
-<br>
 
 ### Rewards
 - URL
@@ -84,3 +83,16 @@ Run this on your terminal.
     "deskripsi":"pulsa adalah ...",
     "urlgambar":"https://www.youngontop.com/wp-content/uploads/2019/03/spongebob.jpg"
     }
+
+### Location
+- URL
+	- api/db/lokasi
+- Method
+	- GET
+- Response
+	-	{
+	"idlokasi":1,
+	"latitude":"-2.401183",
+	"longitude":"116.543652"
+	}
+<br>
