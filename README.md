@@ -55,6 +55,16 @@ Run this on your terminal.
 
 ------------
 
+## Credentials
+Change your database credentials at <b>/models/dbconnection.js
+
+<br>
+	
+## Port Setting
+Change your desire port number at <b>.env
+
+------------
+<br>
 
 ## Routes
 
@@ -92,6 +102,7 @@ Run this on your terminal.
 - Response
 	-	{
 	"idlokasi":1,
+	"namabanksampah":"Bank Sampah putri kabunan",
 	"latitude":"-2.401183",
 	"longitude":"116.543652"
 	}
