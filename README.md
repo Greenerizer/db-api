@@ -89,9 +89,9 @@ Change your desire port number at <b>.env
 - Response
 	-    {
     "idreward": 1,
-    "namareward":"pulsa",
-    "deskripsi":"pulsa adalah ...",
-    "urlgambar":"https://www.youngontop.com/wp-content/uploads/2019/03/spongebob.jpg"
+    "namareward":"Pulsa 1.000",
+    "deskripsi":"Tukar pulsa 1.000 dengan menggunakan poin 1.000",
+    "urlgambar":"https://storage.googleapis.com/capstone-c23-ps303-user_image_upload/Rewards/1000.png"
     }
 
 ### Location
